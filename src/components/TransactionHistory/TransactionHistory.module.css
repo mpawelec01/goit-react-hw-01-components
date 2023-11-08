@@ -1,0 +1,27 @@
+.transactionHistory {
+  margin-top: 60px;
+  width: 600px;
+  margin-bottom: 60px;
+}
+
+.transactionHistory th {
+  color: #fff;
+  border: 1px solid gray;
+  background-color: salmon;
+  width: calc(100% / 3);
+  padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+.transactionHistory tr {
+  text-align: center;
+}
+
+.transactionHistory td {
+  border: 1px solid gray;
+  padding: 15px 0;
+}
+
+.transactionHistory tr:nth-child(2n + 1) {
+  background-color: #fff;
+}
